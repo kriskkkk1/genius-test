@@ -1,0 +1,63 @@
+:root {
+    --color-primary-light:#faf4ea;
+    --color-primary-dark: #31261a;
+    --tcolor-brand: #819b57;
+    --color-brand-dark: #465929;
+}
+
+.body{
+    color: var(--color-primary-dark);
+}
+
+ul {
+    list-style-type: none;
+}
+
+.button{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    color: var(--color-primary-light);
+    border: 2px solid var(--tcolor-brand);
+    border-radius: 8px;
+    padding: 16px 32px;
+    width: 238px;
+    height: 59px;
+    background-color: var(--tcolor-brand);
+}
+
+.button:hover{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    color: var(--color-brand-dark);
+    background-color: transparent;
+    border: 2px solid var(--tcolor-brand);
+}
+
+.link {
+    color: var(--color-primary-light);
+}
+
+.link:hover {
+    color: var(--tcolor-brand);
+}
+
+/* Hero section */
+.hero-title {
+    color: var(--color-primary-light);
+}
+
+.hero-title .accent{
+    color: var(--tcolor-brand); 
+}
+
+/* Advantages section */
+.advantages-list {
+    color: var(--color-primary-light);
+    background-color: var(var(--tcolor-brand));
+}
+
+.section-title .accent {
+    color: var(--color-primary-dark);
+}
